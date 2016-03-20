@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7BD04E1C66BF5D009A4262 /* MSCharacterCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BD04D1C66BF5D009A4262 /* MSCharacterCreationViewController.m */; };
+		3F7BD0511C66C23F009A4262 /* MSCharacterCreationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BD0501C66C23F009A4262 /* MSCharacterCreationView.m */; };
+		3FB28C461C544E53002465A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB28C451C544E53002465A9 /* main.m */; };
+		3FB28C511C544E53002465A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB28C501C544E53002465A9 /* Assets.xcassets */; };
+		3FB28C5F1C544E53002465A9 /* CharactrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB28C5E1C544E53002465A9 /* CharactrTests.m */; };
+		3FB28C6A1C544E53002465A9 /* CharactrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB28C691C544E53002465A9 /* CharactrUITests.m */; };
+		3FB28C7E1C548577002465A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB28C7D1C548577002465A9 /* AppDelegate.m */; };
+		3FB7F6E41C7A4EDC00FE82F3 /* MSScionWillpowerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F6E31C7A4EDC00FE82F3 /* MSScionWillpowerCell.m */; };
+		3FB7F6E71C7A7FB800FE82F3 /* UIView+MSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F6E61C7A7FB800FE82F3 /* UIView+MSLayout.m */; };
+		3FB7F6EA1C7A877D00FE82F3 /* UILabel+MSLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F6E91C7A877D00FE82F3 /* UILabel+MSLabels.m */; };
+		3FB7F6ED1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F6EC1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.m */; };
+		3FB7F6F01C7AB81E00FE82F3 /* MSScionBaseDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F6EF1C7AB81E00FE82F3 /* MSScionBaseDataHandler.m */; };
+		3FB7F6F31C7ACAF000FE82F3 /* MSScionLegendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F6F21C7ACAF000FE82F3 /* MSScionLegendCell.m */; };
+		3FC247E21C66771F0079E469 /* MSNamedPointPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247C51C66771F0079E469 /* MSNamedPointPool.m */; };
+		3FC247E31C66771F0079E469 /* MSPointPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247C71C66771F0079E469 /* MSPointPool.m */; };
+		3FC247E41C66771F0079E469 /* MSScionAbility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247CA1C66771F0079E469 /* MSScionAbility.m */; };
+		3FC247E51C66771F0079E469 /* MSScionArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247CC1C66771F0079E469 /* MSScionArmor.m */; };
+		3FC247E61C66771F0079E469 /* MSScionAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247CE1C66771F0079E469 /* MSScionAttribute.m */; };
+		3FC247E71C66771F0079E469 /* MSScionBirthright.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247D01C66771F0079E469 /* MSScionBirthright.m */; };
+		3FC247E81C66771F0079E469 /* MSScionCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247D21C66771F0079E469 /* MSScionCharacter.m */; };
+		3FC247E91C66771F0079E469 /* MSScionFeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247D41C66771F0079E469 /* MSScionFeat.m */; };
+		3FC247EA1C66771F0079E469 /* MSScionSoak.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247D61C66771F0079E469 /* MSScionSoak.m */; };
+		3FC247EB1C66771F0079E469 /* MSScionWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247D81C66771F0079E469 /* MSScionWeapon.m */; };
+		3FC247EC1C66771F0079E469 /* MSArchiveKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247DB1C66771F0079E469 /* MSArchiveKeys.m */; };
+		3FC247ED1C66771F0079E469 /* MSCharacterStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247DD1C66771F0079E469 /* MSCharacterStorageManager.m */; };
+		3FC247EE1C66771F0079E469 /* MSCharacterStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247DF1C66771F0079E469 /* MSCharacterStorageObject.m */; };
+		3FC247EF1C66771F0079E469 /* NSCoder+MSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC247E11C66771F0079E469 /* NSCoder+MSCoding.m */; };
+		3FC68CE01C67D58500D65C6B /* MSCharacterSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC68CDF1C67D58500D65C6B /* MSCharacterSheetViewController.m */; };
+		3FC68CE41C67D75400D65C6B /* MSScionCharacterSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC68CE31C67D75400D65C6B /* MSScionCharacterSheetViewController.m */; };
+		3FC68CE71C67D77D00D65C6B /* MSScionCharacterSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC68CE61C67D77D00D65C6B /* MSScionCharacterSheetView.m */; };
+		3FC68CEB1C68119400D65C6B /* MSScionAttributesDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC68CEA1C68119400D65C6B /* MSScionAttributesDataHandler.m */; };
+		3FC68CEE1C68120200D65C6B /* MSBaseDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC68CED1C68120200D65C6B /* MSBaseDataHandler.m */; };
+		3FC68CF21C6818D100D65C6B /* MSScionAttributeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC68CF11C6818D100D65C6B /* MSScionAttributeCell.m */; };
+		3FD4AB111C66A96C008BC6D7 /* MSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4AB101C66A96C008BC6D7 /* MSCollectionViewCell.m */; };
+		3FD7EDBC1C6F529D00DB3284 /* MSScionAbilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7EDBB1C6F529D00DB3284 /* MSScionAbilityCell.m */; };
+		3FD7EDBF1C6F5A5F00DB3284 /* UIButton+MSButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7EDBE1C6F5A5F00DB3284 /* UIButton+MSButtons.m */; };
+		3FD7EDC21C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7EDC11C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.m */; };
+		3FEE4BDA1C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE4BD91C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.m */; };
+		3FEE4BDD1C5EE83700CCC78E /* MSCharacterSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE4BDC1C5EE83700CCC78E /* MSCharacterSelectCell.m */; };
+		3FEE4BE11C5EEB2700CCC78E /* MSCharacterCreateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE4BE01C5EEB2700CCC78E /* MSCharacterCreateCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB28C5B1C544E53002465A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB28C391C544E53002465A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB28C401C544E53002465A9;
+			remoteInfo = Charactr;
+		};
+		3FB28C661C544E53002465A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB28C391C544E53002465A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB28C401C544E53002465A9;
+			remoteInfo = Charactr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7BD04C1C66BF5D009A4262 /* MSCharacterCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterCreationViewController.h; path = Presentation/Views/MSCharacterCreationViewController.h; sourceTree = "<group>"; };
+		3F7BD04D1C66BF5D009A4262 /* MSCharacterCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterCreationViewController.m; path = Presentation/Views/MSCharacterCreationViewController.m; sourceTree = "<group>"; };
+		3F7BD04F1C66C23F009A4262 /* MSCharacterCreationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterCreationView.h; path = Presentation/Views/MSCharacterCreationView.h; sourceTree = "<group>"; };
+		3F7BD0501C66C23F009A4262 /* MSCharacterCreationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterCreationView.m; path = Presentation/Views/MSCharacterCreationView.m; sourceTree = "<group>"; };
+		3F7BD0521C66CB23009A4262 /* MSCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCharacter.h; sourceTree = "<group>"; };
+		3FB28C411C544E53002465A9 /* Charactr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charactr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB28C451C544E53002465A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB28C501C544E53002465A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB28C551C544E53002465A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB28C5A1C544E53002465A9 /* CharactrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharactrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB28C5E1C544E53002465A9 /* CharactrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactrTests.m; sourceTree = "<group>"; };
+		3FB28C601C544E53002465A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB28C651C544E53002465A9 /* CharactrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharactrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB28C691C544E53002465A9 /* CharactrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactrUITests.m; sourceTree = "<group>"; };
+		3FB28C6B1C544E53002465A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB28C7C1C548577002465A9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FB28C7D1C548577002465A9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FB7F6E21C7A4EDC00FE82F3 /* MSScionWillpowerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionWillpowerCell.h; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionWillpowerCell.h; sourceTree = "<group>"; };
+		3FB7F6E31C7A4EDC00FE82F3 /* MSScionWillpowerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionWillpowerCell.m; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionWillpowerCell.m; sourceTree = "<group>"; };
+		3FB7F6E51C7A7FB800FE82F3 /* UIView+MSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MSLayout.h"; path = "Presentation/UIView+MSLayout.h"; sourceTree = "<group>"; };
+		3FB7F6E61C7A7FB800FE82F3 /* UIView+MSLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MSLayout.m"; path = "Presentation/UIView+MSLayout.m"; sourceTree = "<group>"; };
+		3FB7F6E81C7A877D00FE82F3 /* UILabel+MSLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+MSLabels.h"; path = "Presentation/UILabel+MSLabels.h"; sourceTree = "<group>"; };
+		3FB7F6E91C7A877D00FE82F3 /* UILabel+MSLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+MSLabels.m"; path = "Presentation/UILabel+MSLabels.m"; sourceTree = "<group>"; };
+		3FB7F6EB1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionFeaturesDataHandler.h; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionFeaturesDataHandler.h; sourceTree = "<group>"; };
+		3FB7F6EC1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionFeaturesDataHandler.m; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionFeaturesDataHandler.m; sourceTree = "<group>"; };
+		3FB7F6EE1C7AB81E00FE82F3 /* MSScionBaseDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionBaseDataHandler.h; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionBaseDataHandler.h; sourceTree = "<group>"; };
+		3FB7F6EF1C7AB81E00FE82F3 /* MSScionBaseDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionBaseDataHandler.m; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionBaseDataHandler.m; sourceTree = "<group>"; };
+		3FB7F6F11C7ACAF000FE82F3 /* MSScionLegendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionLegendCell.h; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionLegendCell.h; sourceTree = "<group>"; };
+		3FB7F6F21C7ACAF000FE82F3 /* MSScionLegendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionLegendCell.m; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionLegendCell.m; sourceTree = "<group>"; };
+		3FC247C41C66771F0079E469 /* MSNamedPointPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNamedPointPool.h; sourceTree = "<group>"; };
+		3FC247C51C66771F0079E469 /* MSNamedPointPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNamedPointPool.m; sourceTree = "<group>"; };
+		3FC247C61C66771F0079E469 /* MSPointPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPointPool.h; sourceTree = "<group>"; };
+		3FC247C71C66771F0079E469 /* MSPointPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPointPool.m; sourceTree = "<group>"; };
+		3FC247C91C66771F0079E469 /* MSScionAbility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionAbility.h; sourceTree = "<group>"; };
+		3FC247CA1C66771F0079E469 /* MSScionAbility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionAbility.m; sourceTree = "<group>"; };
+		3FC247CB1C66771F0079E469 /* MSScionArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionArmor.h; sourceTree = "<group>"; };
+		3FC247CC1C66771F0079E469 /* MSScionArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionArmor.m; sourceTree = "<group>"; };
+		3FC247CD1C66771F0079E469 /* MSScionAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionAttribute.h; sourceTree = "<group>"; };
+		3FC247CE1C66771F0079E469 /* MSScionAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionAttribute.m; sourceTree = "<group>"; };
+		3FC247CF1C66771F0079E469 /* MSScionBirthright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionBirthright.h; sourceTree = "<group>"; };
+		3FC247D01C66771F0079E469 /* MSScionBirthright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionBirthright.m; sourceTree = "<group>"; };
+		3FC247D11C66771F0079E469 /* MSScionCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionCharacter.h; sourceTree = "<group>"; };
+		3FC247D21C66771F0079E469 /* MSScionCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionCharacter.m; sourceTree = "<group>"; };
+		3FC247D31C66771F0079E469 /* MSScionFeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionFeat.h; sourceTree = "<group>"; };
+		3FC247D41C66771F0079E469 /* MSScionFeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionFeat.m; sourceTree = "<group>"; };
+		3FC247D51C66771F0079E469 /* MSScionSoak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionSoak.h; sourceTree = "<group>"; };
+		3FC247D61C66771F0079E469 /* MSScionSoak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionSoak.m; sourceTree = "<group>"; };
+		3FC247D71C66771F0079E469 /* MSScionWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScionWeapon.h; sourceTree = "<group>"; };
+		3FC247D81C66771F0079E469 /* MSScionWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScionWeapon.m; sourceTree = "<group>"; };
+		3FC247DA1C66771F0079E469 /* MSArchiveKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSArchiveKeys.h; sourceTree = "<group>"; };
+		3FC247DB1C66771F0079E469 /* MSArchiveKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSArchiveKeys.m; sourceTree = "<group>"; };
+		3FC247DC1C66771F0079E469 /* MSCharacterStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCharacterStorageManager.h; sourceTree = "<group>"; };
+		3FC247DD1C66771F0079E469 /* MSCharacterStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCharacterStorageManager.m; sourceTree = "<group>"; };
+		3FC247DE1C66771F0079E469 /* MSCharacterStorageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCharacterStorageObject.h; sourceTree = "<group>"; };
+		3FC247DF1C66771F0079E469 /* MSCharacterStorageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCharacterStorageObject.m; sourceTree = "<group>"; };
+		3FC247E01C66771F0079E469 /* NSCoder+MSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCoder+MSCoding.h"; sourceTree = "<group>"; };
+		3FC247E11C66771F0079E469 /* NSCoder+MSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCoder+MSCoding.m"; sourceTree = "<group>"; };
+		3FC68CDE1C67D58500D65C6B /* MSCharacterSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterSheetViewController.h; path = Presentation/Views/CharacterSheets/MSCharacterSheetViewController.h; sourceTree = "<group>"; };
+		3FC68CDF1C67D58500D65C6B /* MSCharacterSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterSheetViewController.m; path = Presentation/Views/CharacterSheets/MSCharacterSheetViewController.m; sourceTree = "<group>"; };
+		3FC68CE21C67D75400D65C6B /* MSScionCharacterSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionCharacterSheetViewController.h; path = Presentation/Views/CharacterSheets/Scion/MSScionCharacterSheetViewController.h; sourceTree = "<group>"; };
+		3FC68CE31C67D75400D65C6B /* MSScionCharacterSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionCharacterSheetViewController.m; path = Presentation/Views/CharacterSheets/Scion/MSScionCharacterSheetViewController.m; sourceTree = "<group>"; };
+		3FC68CE51C67D77D00D65C6B /* MSScionCharacterSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionCharacterSheetView.h; path = Presentation/Views/CharacterSheets/Scion/MSScionCharacterSheetView.h; sourceTree = "<group>"; };
+		3FC68CE61C67D77D00D65C6B /* MSScionCharacterSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionCharacterSheetView.m; path = Presentation/Views/CharacterSheets/Scion/MSScionCharacterSheetView.m; sourceTree = "<group>"; };
+		3FC68CE91C68119400D65C6B /* MSScionAttributesDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionAttributesDataHandler.h; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionAttributesDataHandler.h; sourceTree = "<group>"; };
+		3FC68CEA1C68119400D65C6B /* MSScionAttributesDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionAttributesDataHandler.m; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionAttributesDataHandler.m; sourceTree = "<group>"; };
+		3FC68CEC1C68120200D65C6B /* MSBaseDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSBaseDataHandler.h; path = Presentation/Views/CharacterSheets/MSBaseDataHandler.h; sourceTree = "<group>"; };
+		3FC68CED1C68120200D65C6B /* MSBaseDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSBaseDataHandler.m; path = Presentation/Views/CharacterSheets/MSBaseDataHandler.m; sourceTree = "<group>"; };
+		3FC68CF01C6818D100D65C6B /* MSScionAttributeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionAttributeCell.h; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionAttributeCell.h; sourceTree = "<group>"; };
+		3FC68CF11C6818D100D65C6B /* MSScionAttributeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionAttributeCell.m; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionAttributeCell.m; sourceTree = "<group>"; };
+		3FD4AB0F1C66A96C008BC6D7 /* MSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCollectionViewCell.h; path = Presentation/Cells/MSCollectionViewCell.h; sourceTree = "<group>"; };
+		3FD4AB101C66A96C008BC6D7 /* MSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCollectionViewCell.m; path = Presentation/Cells/MSCollectionViewCell.m; sourceTree = "<group>"; };
+		3FD7EDBA1C6F529D00DB3284 /* MSScionAbilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionAbilityCell.h; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionAbilityCell.h; sourceTree = "<group>"; };
+		3FD7EDBB1C6F529D00DB3284 /* MSScionAbilityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionAbilityCell.m; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionAbilityCell.m; sourceTree = "<group>"; };
+		3FD7EDBD1C6F5A5F00DB3284 /* UIButton+MSButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+MSButtons.h"; path = "Presentation/UIButton+MSButtons.h"; sourceTree = "<group>"; };
+		3FD7EDBE1C6F5A5F00DB3284 /* UIButton+MSButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+MSButtons.m"; path = "Presentation/UIButton+MSButtons.m"; sourceTree = "<group>"; };
+		3FD7EDC01C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionAbilitiesDataHandler.h; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionAbilitiesDataHandler.h; sourceTree = "<group>"; };
+		3FD7EDC11C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionAbilitiesDataHandler.m; path = Presentation/Views/CharacterSheets/Scion/DataHandlers/MSScionAbilitiesDataHandler.m; sourceTree = "<group>"; };
+		3FEE4BD81C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterSelectCollectionViewController.h; path = Presentation/Views/MSCharacterSelectCollectionViewController.h; sourceTree = "<group>"; };
+		3FEE4BD91C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterSelectCollectionViewController.m; path = Presentation/Views/MSCharacterSelectCollectionViewController.m; sourceTree = "<group>"; };
+		3FEE4BDB1C5EE83700CCC78E /* MSCharacterSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterSelectCell.h; path = Presentation/Cells/MSCharacterSelectCell.h; sourceTree = "<group>"; };
+		3FEE4BDC1C5EE83700CCC78E /* MSCharacterSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterSelectCell.m; path = Presentation/Cells/MSCharacterSelectCell.m; sourceTree = "<group>"; };
+		3FEE4BDF1C5EEB2700CCC78E /* MSCharacterCreateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterCreateCell.h; path = Presentation/Cells/MSCharacterCreateCell.h; sourceTree = "<group>"; };
+		3FEE4BE01C5EEB2700CCC78E /* MSCharacterCreateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterCreateCell.m; path = Presentation/Cells/MSCharacterCreateCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB28C3E1C544E53002465A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB28C571C544E53002465A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB28C621C544E53002465A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A3C501C6720A800AAE456 /* CharacterCreation */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BD04C1C66BF5D009A4262 /* MSCharacterCreationViewController.h */,
+				3F7BD04D1C66BF5D009A4262 /* MSCharacterCreationViewController.m */,
+				3F7BD04F1C66C23F009A4262 /* MSCharacterCreationView.h */,
+				3F7BD0501C66C23F009A4262 /* MSCharacterCreationView.m */,
+			);
+			name = CharacterCreation;
+			sourceTree = "<group>";
+		};
+		3FB28C381C544E53002465A9 = {
+			isa = PBXGroup;
+			children = (
+				3FB28C431C544E53002465A9 /* Charactr */,
+				3FB28C5D1C544E53002465A9 /* CharactrTests */,
+				3FB28C681C544E53002465A9 /* CharactrUITests */,
+				3FB28C421C544E53002465A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB28C421C544E53002465A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB28C411C544E53002465A9 /* Charactr.app */,
+				3FB28C5A1C544E53002465A9 /* CharactrTests.xctest */,
+				3FB28C651C544E53002465A9 /* CharactrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB28C431C544E53002465A9 /* Charactr */ = {
+			isa = PBXGroup;
+			children = (
+				3FB28C7C1C548577002465A9 /* AppDelegate.h */,
+				3FB28C7D1C548577002465A9 /* AppDelegate.m */,
+				3FC247C11C66771F0079E469 /* Data */,
+				3FEE4BD51C5EE6DC00CCC78E /* Presentation */,
+				3FB28C501C544E53002465A9 /* Assets.xcassets */,
+				3FB28C551C544E53002465A9 /* Info.plist */,
+				3FB28C441C544E53002465A9 /* Supporting Files */,
+			);
+			path = Charactr;
+			sourceTree = "<group>";
+		};
+		3FB28C441C544E53002465A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB28C451C544E53002465A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB28C5D1C544E53002465A9 /* CharactrTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB28C5E1C544E53002465A9 /* CharactrTests.m */,
+				3FB28C601C544E53002465A9 /* Info.plist */,
+			);
+			path = CharactrTests;
+			sourceTree = "<group>";
+		};
+		3FB28C681C544E53002465A9 /* CharactrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB28C691C544E53002465A9 /* CharactrUITests.m */,
+				3FB28C6B1C544E53002465A9 /* Info.plist */,
+			);
+			path = CharactrUITests;
+			sourceTree = "<group>";
+		};
+		3FC247C11C66771F0079E469 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3FC247C21C66771F0079E469 /* Base */,
+				3FC247C81C66771F0079E469 /* Scion */,
+				3FC247D91C66771F0079E469 /* Storage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3FC247C21C66771F0079E469 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BD0521C66CB23009A4262 /* MSCharacter.h */,
+				3FC247C41C66771F0079E469 /* MSNamedPointPool.h */,
+				3FC247C51C66771F0079E469 /* MSNamedPointPool.m */,
+				3FC247C61C66771F0079E469 /* MSPointPool.h */,
+				3FC247C71C66771F0079E469 /* MSPointPool.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3FC247C81C66771F0079E469 /* Scion */ = {
+			isa = PBXGroup;
+			children = (
+				3FC247C91C66771F0079E469 /* MSScionAbility.h */,
+				3FC247CA1C66771F0079E469 /* MSScionAbility.m */,
+				3FC247CB1C66771F0079E469 /* MSScionArmor.h */,
+				3FC247CC1C66771F0079E469 /* MSScionArmor.m */,
+				3FC247CD1C66771F0079E469 /* MSScionAttribute.h */,
+				3FC247CE1C66771F0079E469 /* MSScionAttribute.m */,
+				3FC247CF1C66771F0079E469 /* MSScionBirthright.h */,
+				3FC247D01C66771F0079E469 /* MSScionBirthright.m */,
+				3FC247D11C66771F0079E469 /* MSScionCharacter.h */,
+				3FC247D21C66771F0079E469 /* MSScionCharacter.m */,
+				3FC247D31C66771F0079E469 /* MSScionFeat.h */,
+				3FC247D41C66771F0079E469 /* MSScionFeat.m */,
+				3FC247D51C66771F0079E469 /* MSScionSoak.h */,
+				3FC247D61C66771F0079E469 /* MSScionSoak.m */,
+				3FC247D71C66771F0079E469 /* MSScionWeapon.h */,
+				3FC247D81C66771F0079E469 /* MSScionWeapon.m */,
+			);
+			path = Scion;
+			sourceTree = "<group>";
+		};
+		3FC247D91C66771F0079E469 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3FC247DA1C66771F0079E469 /* MSArchiveKeys.h */,
+				3FC247DB1C66771F0079E469 /* MSArchiveKeys.m */,
+				3FC247DC1C66771F0079E469 /* MSCharacterStorageManager.h */,
+				3FC247DD1C66771F0079E469 /* MSCharacterStorageManager.m */,
+				3FC247DE1C66771F0079E469 /* MSCharacterStorageObject.h */,
+				3FC247DF1C66771F0079E469 /* MSCharacterStorageObject.m */,
+				3FC247E01C66771F0079E469 /* NSCoder+MSCoding.h */,
+				3FC247E11C66771F0079E469 /* NSCoder+MSCoding.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		3FC68CDD1C67D52600D65C6B /* CharacterSheets */ = {
+			isa = PBXGroup;
+			children = (
+				3FC68CE11C67D73300D65C6B /* Scion */,
+				3FC68CDE1C67D58500D65C6B /* MSCharacterSheetViewController.h */,
+				3FC68CDF1C67D58500D65C6B /* MSCharacterSheetViewController.m */,
+				3FC68CEC1C68120200D65C6B /* MSBaseDataHandler.h */,
+				3FC68CED1C68120200D65C6B /* MSBaseDataHandler.m */,
+			);
+			name = CharacterSheets;
+			sourceTree = "<group>";
+		};
+		3FC68CE11C67D73300D65C6B /* Scion */ = {
+			isa = PBXGroup;
+			children = (
+				3FC68CEF1C68185200D65C6B /* Cells */,
+				3FC68CE81C68108700D65C6B /* DataHandlers */,
+				3FC68CE21C67D75400D65C6B /* MSScionCharacterSheetViewController.h */,
+				3FC68CE31C67D75400D65C6B /* MSScionCharacterSheetViewController.m */,
+				3FC68CE51C67D77D00D65C6B /* MSScionCharacterSheetView.h */,
+				3FC68CE61C67D77D00D65C6B /* MSScionCharacterSheetView.m */,
+			);
+			name = Scion;
+			sourceTree = "<group>";
+		};
+		3FC68CE81C68108700D65C6B /* DataHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC68CE91C68119400D65C6B /* MSScionAttributesDataHandler.h */,
+				3FC68CEA1C68119400D65C6B /* MSScionAttributesDataHandler.m */,
+				3FD7EDC01C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.h */,
+				3FD7EDC11C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.m */,
+				3FB7F6EB1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.h */,
+				3FB7F6EC1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.m */,
+				3FB7F6EE1C7AB81E00FE82F3 /* MSScionBaseDataHandler.h */,
+				3FB7F6EF1C7AB81E00FE82F3 /* MSScionBaseDataHandler.m */,
+			);
+			name = DataHandlers;
+			sourceTree = "<group>";
+		};
+		3FC68CEF1C68185200D65C6B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3FC68CF01C6818D100D65C6B /* MSScionAttributeCell.h */,
+				3FC68CF11C6818D100D65C6B /* MSScionAttributeCell.m */,
+				3FD7EDBA1C6F529D00DB3284 /* MSScionAbilityCell.h */,
+				3FD7EDBB1C6F529D00DB3284 /* MSScionAbilityCell.m */,
+				3FB7F6E21C7A4EDC00FE82F3 /* MSScionWillpowerCell.h */,
+				3FB7F6E31C7A4EDC00FE82F3 /* MSScionWillpowerCell.m */,
+				3FB7F6F11C7ACAF000FE82F3 /* MSScionLegendCell.h */,
+				3FB7F6F21C7ACAF000FE82F3 /* MSScionLegendCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3FEE4BD51C5EE6DC00CCC78E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE4BD71C5EE72200CCC78E /* Views */,
+				3FEE4BD61C5EE71B00CCC78E /* Cells */,
+				3FD7EDBD1C6F5A5F00DB3284 /* UIButton+MSButtons.h */,
+				3FD7EDBE1C6F5A5F00DB3284 /* UIButton+MSButtons.m */,
+				3FB7F6E51C7A7FB800FE82F3 /* UIView+MSLayout.h */,
+				3FB7F6E61C7A7FB800FE82F3 /* UIView+MSLayout.m */,
+				3FB7F6E81C7A877D00FE82F3 /* UILabel+MSLabels.h */,
+				3FB7F6E91C7A877D00FE82F3 /* UILabel+MSLabels.m */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		3FEE4BD61C5EE71B00CCC78E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE4BDF1C5EEB2700CCC78E /* MSCharacterCreateCell.h */,
+				3FEE4BE01C5EEB2700CCC78E /* MSCharacterCreateCell.m */,
+				3FEE4BDB1C5EE83700CCC78E /* MSCharacterSelectCell.h */,
+				3FEE4BDC1C5EE83700CCC78E /* MSCharacterSelectCell.m */,
+				3FD4AB0F1C66A96C008BC6D7 /* MSCollectionViewCell.h */,
+				3FD4AB101C66A96C008BC6D7 /* MSCollectionViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3FEE4BD71C5EE72200CCC78E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE4BD81C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.h */,
+				3FEE4BD91C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.m */,
+				3F8A3C501C6720A800AAE456 /* CharacterCreation */,
+				3FC68CDD1C67D52600D65C6B /* CharacterSheets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB28C401C544E53002465A9 /* Charactr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB28C6E1C544E53002465A9 /* Build configuration list for PBXNativeTarget "Charactr" */;
+			buildPhases = (
+				3FB28C3D1C544E53002465A9 /* Sources */,
+				3FB28C3E1C544E53002465A9 /* Frameworks */,
+				3FB28C3F1C544E53002465A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Charactr;
+			productName = Charactr;
+			productReference = 3FB28C411C544E53002465A9 /* Charactr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB28C591C544E53002465A9 /* CharactrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB28C711C544E53002465A9 /* Build configuration list for PBXNativeTarget "CharactrTests" */;
+			buildPhases = (
+				3FB28C561C544E53002465A9 /* Sources */,
+				3FB28C571C544E53002465A9 /* Frameworks */,
+				3FB28C581C544E53002465A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB28C5C1C544E53002465A9 /* PBXTargetDependency */,
+			);
+			name = CharactrTests;
+			productName = CharactrTests;
+			productReference = 3FB28C5A1C544E53002465A9 /* CharactrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB28C641C544E53002465A9 /* CharactrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB28C741C544E53002465A9 /* Build configuration list for PBXNativeTarget "CharactrUITests" */;
+			buildPhases = (
+				3FB28C611C544E53002465A9 /* Sources */,
+				3FB28C621C544E53002465A9 /* Frameworks */,
+				3FB28C631C544E53002465A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB28C671C544E53002465A9 /* PBXTargetDependency */,
+			);
+			name = CharactrUITests;
+			productName = CharactrUITests;
+			productReference = 3FB28C651C544E53002465A9 /* CharactrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB28C391C544E53002465A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jaysen Spurlock";
+				TargetAttributes = {
+					3FB28C401C544E53002465A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3FB28C591C544E53002465A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FB28C401C544E53002465A9;
+					};
+					3FB28C641C544E53002465A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FB28C401C544E53002465A9;
+					};
+				};
+			};
+			buildConfigurationList = 3FB28C3C1C544E53002465A9 /* Build configuration list for PBXProject "Charactr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB28C381C544E53002465A9;
+			productRefGroup = 3FB28C421C544E53002465A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB28C401C544E53002465A9 /* Charactr */,
+				3FB28C591C544E53002465A9 /* CharactrTests */,
+				3FB28C641C544E53002465A9 /* CharactrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB28C3F1C544E53002465A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB28C511C544E53002465A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB28C581C544E53002465A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB28C631C544E53002465A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB28C3D1C544E53002465A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC68CE71C67D77D00D65C6B /* MSScionCharacterSheetView.m in Sources */,
+				3FC68CF21C6818D100D65C6B /* MSScionAttributeCell.m in Sources */,
+				3FD4AB111C66A96C008BC6D7 /* MSCollectionViewCell.m in Sources */,
+				3FB7F6E71C7A7FB800FE82F3 /* UIView+MSLayout.m in Sources */,
+				3F7BD0511C66C23F009A4262 /* MSCharacterCreationView.m in Sources */,
+				3FC247EC1C66771F0079E469 /* MSArchiveKeys.m in Sources */,
+				3FC247E71C66771F0079E469 /* MSScionBirthright.m in Sources */,
+				3FC247E41C66771F0079E469 /* MSScionAbility.m in Sources */,
+				3FC247EF1C66771F0079E469 /* NSCoder+MSCoding.m in Sources */,
+				3FB28C461C544E53002465A9 /* main.m in Sources */,
+				3FB7F6F01C7AB81E00FE82F3 /* MSScionBaseDataHandler.m in Sources */,
+				3FD7EDBF1C6F5A5F00DB3284 /* UIButton+MSButtons.m in Sources */,
+				3FC247EA1C66771F0079E469 /* MSScionSoak.m in Sources */,
+				3FC68CE01C67D58500D65C6B /* MSCharacterSheetViewController.m in Sources */,
+				3FC68CE41C67D75400D65C6B /* MSScionCharacterSheetViewController.m in Sources */,
+				3FC247EE1C66771F0079E469 /* MSCharacterStorageObject.m in Sources */,
+				3FC68CEB1C68119400D65C6B /* MSScionAttributesDataHandler.m in Sources */,
+				3F7BD04E1C66BF5D009A4262 /* MSCharacterCreationViewController.m in Sources */,
+				3FD7EDBC1C6F529D00DB3284 /* MSScionAbilityCell.m in Sources */,
+				3FC68CEE1C68120200D65C6B /* MSBaseDataHandler.m in Sources */,
+				3FB7F6E41C7A4EDC00FE82F3 /* MSScionWillpowerCell.m in Sources */,
+				3FC247E91C66771F0079E469 /* MSScionFeat.m in Sources */,
+				3FC247E21C66771F0079E469 /* MSNamedPointPool.m in Sources */,
+				3FC247E51C66771F0079E469 /* MSScionArmor.m in Sources */,
+				3FC247ED1C66771F0079E469 /* MSCharacterStorageManager.m in Sources */,
+				3FB7F6F31C7ACAF000FE82F3 /* MSScionLegendCell.m in Sources */,
+				3FD7EDC21C6FC6D200DB3284 /* MSScionAbilitiesDataHandler.m in Sources */,
+				3FC247E61C66771F0079E469 /* MSScionAttribute.m in Sources */,
+				3FC247E81C66771F0079E469 /* MSScionCharacter.m in Sources */,
+				3FC247EB1C66771F0079E469 /* MSScionWeapon.m in Sources */,
+				3FEE4BDD1C5EE83700CCC78E /* MSCharacterSelectCell.m in Sources */,
+				3FB7F6ED1C7AA71100FE82F3 /* MSScionFeaturesDataHandler.m in Sources */,
+				3FC247E31C66771F0079E469 /* MSPointPool.m in Sources */,
+				3FEE4BDA1C5EE7E400CCC78E /* MSCharacterSelectCollectionViewController.m in Sources */,
+				3FB7F6EA1C7A877D00FE82F3 /* UILabel+MSLabels.m in Sources */,
+				3FB28C7E1C548577002465A9 /* AppDelegate.m in Sources */,
+				3FEE4BE11C5EEB2700CCC78E /* MSCharacterCreateCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB28C561C544E53002465A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB28C5F1C544E53002465A9 /* CharactrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB28C611C544E53002465A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB28C6A1C544E53002465A9 /* CharactrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB28C5C1C544E53002465A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB28C401C544E53002465A9 /* Charactr */;
+			targetProxy = 3FB28C5B1C544E53002465A9 /* PBXContainerItemProxy */;
+		};
+		3FB28C671C544E53002465A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB28C401C544E53002465A9 /* Charactr */;
+			targetProxy = 3FB28C661C544E53002465A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FB28C6C1C544E53002465A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FB28C6D1C544E53002465A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB28C6F1C544E53002465A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Charactr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mythos-Softworks.Charactr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3FB28C701C544E53002465A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Charactr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mythos-Softworks.Charactr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		3FB28C721C544E53002465A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CharactrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mythos-Softworks.CharactrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charactr.app/Charactr";
+			};
+			name = Debug;
+		};
+		3FB28C731C544E53002465A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CharactrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mythos-Softworks.CharactrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charactr.app/Charactr";
+			};
+			name = Release;
+		};
+		3FB28C751C544E53002465A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CharactrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mythos-Softworks.CharactrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Charactr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FB28C761C544E53002465A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CharactrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mythos-Softworks.CharactrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Charactr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB28C3C1C544E53002465A9 /* Build configuration list for PBXProject "Charactr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB28C6C1C544E53002465A9 /* Debug */,
+				3FB28C6D1C544E53002465A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB28C6E1C544E53002465A9 /* Build configuration list for PBXNativeTarget "Charactr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB28C6F1C544E53002465A9 /* Debug */,
+				3FB28C701C544E53002465A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB28C711C544E53002465A9 /* Build configuration list for PBXNativeTarget "CharactrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB28C721C544E53002465A9 /* Debug */,
+				3FB28C731C544E53002465A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB28C741C544E53002465A9 /* Build configuration list for PBXNativeTarget "CharactrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB28C751C544E53002465A9 /* Debug */,
+				3FB28C761C544E53002465A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB28C391C544E53002465A9 /* Project object */;
+}
