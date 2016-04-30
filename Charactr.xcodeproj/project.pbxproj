@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F7BD04E1C66BF5D009A4262 /* MSCharacterCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BD04D1C66BF5D009A4262 /* MSCharacterCreationViewController.m */; };
 		3F7BD0511C66C23F009A4262 /* MSCharacterCreationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BD0501C66C23F009A4262 /* MSCharacterCreationView.m */; };
+		3F95BBA11CD51D0900AB5B95 /* MSScionVirtuesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F95BBA01CD51D0900AB5B95 /* MSScionVirtuesCell.m */; };
 		3FB28C461C544E53002465A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB28C451C544E53002465A9 /* main.m */; };
 		3FB28C511C544E53002465A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB28C501C544E53002465A9 /* Assets.xcassets */; };
 		3FB28C5F1C544E53002465A9 /* CharactrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB28C5E1C544E53002465A9 /* CharactrTests.m */; };
@@ -72,6 +73,8 @@
 		3F7BD04F1C66C23F009A4262 /* MSCharacterCreationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCharacterCreationView.h; path = Presentation/Views/MSCharacterCreationView.h; sourceTree = "<group>"; };
 		3F7BD0501C66C23F009A4262 /* MSCharacterCreationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCharacterCreationView.m; path = Presentation/Views/MSCharacterCreationView.m; sourceTree = "<group>"; };
 		3F7BD0521C66CB23009A4262 /* MSCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCharacter.h; sourceTree = "<group>"; };
+		3F95BB9F1CD51D0900AB5B95 /* MSScionVirtuesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScionVirtuesCell.h; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionVirtuesCell.h; sourceTree = "<group>"; };
+		3F95BBA01CD51D0900AB5B95 /* MSScionVirtuesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScionVirtuesCell.m; path = Presentation/Views/CharacterSheets/Scion/Cells/MSScionVirtuesCell.m; sourceTree = "<group>"; };
 		3FB28C411C544E53002465A9 /* Charactr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charactr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB28C451C544E53002465A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FB28C501C544E53002465A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -359,6 +362,8 @@
 				3FB7F6E31C7A4EDC00FE82F3 /* MSScionWillpowerCell.m */,
 				3FB7F6F11C7ACAF000FE82F3 /* MSScionLegendCell.h */,
 				3FB7F6F21C7ACAF000FE82F3 /* MSScionLegendCell.m */,
+				3F95BB9F1CD51D0900AB5B95 /* MSScionVirtuesCell.h */,
+				3F95BBA01CD51D0900AB5B95 /* MSScionVirtuesCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -545,6 +550,7 @@
 				3FC247EA1C66771F0079E469 /* MSScionSoak.m in Sources */,
 				3FC68CE01C67D58500D65C6B /* MSCharacterSheetViewController.m in Sources */,
 				3FC68CE41C67D75400D65C6B /* MSScionCharacterSheetViewController.m in Sources */,
+				3F95BBA11CD51D0900AB5B95 /* MSScionVirtuesCell.m in Sources */,
 				3FC247EE1C66771F0079E469 /* MSCharacterStorageObject.m in Sources */,
 				3FC68CEB1C68119400D65C6B /* MSScionAttributesDataHandler.m in Sources */,
 				3F7BD04E1C66BF5D009A4262 /* MSCharacterCreationViewController.m in Sources */,
