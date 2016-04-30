@@ -116,7 +116,7 @@
 #pragma mark Private Methods
 
 - (void)setAbilityValue:(NSInteger)value {
-  _abilityValueLabel.text = [NSString stringWithFormat:@"%d", value];
+  _abilityValueLabel.text = [NSString stringWithFormat:@"%ld", (long)value];
   _abilityIncrementButton.enabled = value < 10;
   _abilityDecrementButton.enabled = value > 0;
   [self setNeedsDisplay];

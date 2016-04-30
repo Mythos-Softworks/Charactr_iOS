@@ -68,7 +68,7 @@
 #pragma mark Private Methods
 
 - (void)setLegendValue:(NSInteger)value {
-  _legendValueLabel.text = [NSString stringWithFormat:@"%d", value];
+  _legendValueLabel.text = [NSString stringWithFormat:@"%ld", (long)value];
   _legendIncrementButton.enabled = value < 12;
   _legendDecrementButton.enabled = value > 2;
   [self setNeedsDisplay];

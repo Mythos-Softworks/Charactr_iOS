@@ -126,14 +126,14 @@
 #pragma mark Private Methods
 
 - (void)setAttributeValue:(NSInteger)value {
-  _attributeValueLabel.text = [NSString stringWithFormat:@"%d", value];
+  _attributeValueLabel.text = [NSString stringWithFormat:@"%ld", (long)value];
   _attributeIncrementButton.enabled = value < 10;
   _attributeDecrementButton.enabled = value > 1;
   [self setNeedsDisplay];
 }
 
 - (void)setEpicValue:(NSInteger)value {
-  _epicValueLabel.text = [NSString stringWithFormat:@"%d", value];
+  _epicValueLabel.text = [NSString stringWithFormat:@"%ld", (long)value];
   _epicIncrementButton.enabled = value < 10;
   _epicDecrementButton.enabled = value > 0;
   [self setNeedsDisplay];

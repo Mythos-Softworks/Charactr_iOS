@@ -109,7 +109,7 @@
 #pragma mark Private Methods
 
 - (void)setMaxValue:(NSInteger)value {
-  _maxValueLabel.text = [NSString stringWithFormat:@"%d", value];
+  _maxValueLabel.text = [NSString stringWithFormat:@"%ld", (long)value];
   _maxIncrementButton.enabled = value < 10;
   _maxDecrementButton.enabled = value > 0;
 
@@ -122,7 +122,7 @@
 }
 
 - (void)setCurrentValue:(NSInteger)value {
-  _currentValueLabel.text = [NSString stringWithFormat:@"%d", value];
+  _currentValueLabel.text = [NSString stringWithFormat:@"%ld", (long)value];
   _currentIncrementButton.enabled = value < _maxTempValue;
   _currentDecrementButton.enabled = value > 0;
 
